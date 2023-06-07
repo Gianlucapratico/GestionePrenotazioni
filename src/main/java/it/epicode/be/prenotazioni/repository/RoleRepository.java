@@ -6,4 +6,6 @@ import it.epicode.be.prenotazioni.model.Role;
 
 public interface RoleRepository extends PagingAndSortingRepository<Role, Long> {
 
+	void save(Role role);
+
 }
